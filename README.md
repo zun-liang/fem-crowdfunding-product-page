@@ -76,7 +76,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/crowdfunding-product-page-created-using-reactjs-and-styledcomponents-DFwezJy1GE)
 - Live Site URL: [here](https://zun-liang.github.io/crowdfunding-product-page/)
 
 ## My process
