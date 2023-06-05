@@ -565,12 +565,12 @@ Error generating stack: `+l.message+`
 `,Y0=O.div`
   width: 100%;
   min-width: 320px;
-  background: url('./src/assets/images/image-hero-mobile.jpg');
+  background-image: url('./assets/images/image-hero-mobile.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 1.3rem 1rem;
   @media (min-width: 600px) {
-      background: url('./src/assets/images/image-hero-desktop.jpg');
+      background-image: url('./assets/images/image-hero-desktop.jpg');
       background-repeat: no-repeat;
       background-size: 100%;
   }
