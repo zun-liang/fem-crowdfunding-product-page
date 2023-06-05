@@ -74,11 +74,10 @@ Users should be able to:
 </table>
 
 
-
 ### Links
 
 - Solution URL: [here](https://your-solution-url.com)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Live Site URL: [here](https://zun-liang.github.io/crowdfunding-product-page/)
 
 ## My process
 
