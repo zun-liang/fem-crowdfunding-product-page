@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import BackgroundImgMobile from "./assets/images/image-hero-mobile.jpg"
+import BackgroundImgDesktop from "./assets/images/image-hero-desktop.jpg"
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import styled from 'styled-components'
@@ -7,12 +9,12 @@ import GlobalStyles from './globalStyles'
 const StyledApp = styled.div`
   width: 100%;
   min-width: 320px;
-  background-image: url('./assets/images/image-hero-mobile.jpg');
+  background: url(${BackgroundImgMobile});
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 1.3rem 1rem;
   @media (min-width: 600px) {
-      background-image: url('./assets/images/image-hero-desktop.jpg');
+      background: url(${BackgroundImgDesktop});
       background-repeat: no-repeat;
       background-size: 100%;
   }
