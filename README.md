@@ -35,15 +35,15 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/Screenshots/Screenshot-mobile-full-page.png"
+                src="./src/screenshots/Screenshot-mobile-full-page.png"
                 alt="mobile preview"
                 height="210px" />
             <img 
-                src="./src/Screenshots/Screenshot-mobile-modal.png"
+                src="./src/screenshots/Screenshot-mobile-modal.png"
                 alt="mobile modal preview"
                 height="210px" />
             <img 
-                src="./src/Screenshots/Screenshot-mobile-complete.png"
+                src="./src/screenshots/Screenshot-mobile-complete.png"
                 alt="mobile complete preview"
                 height="210px" />
         </td>
@@ -51,7 +51,7 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/Screenshots/Screenshot-desktop-full-page.png"
+                src="./src/screenshots/Screenshot-desktop-full-page.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
@@ -59,7 +59,7 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/Screenshots/Screenshot-desktop-modal.png"
+                src="./src/screenshots/Screenshot-desktop-modal.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
@@ -67,7 +67,7 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/Screenshots/Screenshot-desktop-complete.png"
+                src="./src/screenshots/Screenshot-desktop-complete.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
