@@ -18,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
         width: 100%;
         height: 100%;
         font-size: 16px;
+        overflow-x: hidden;
     }
     
     body {
