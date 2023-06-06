@@ -250,7 +250,7 @@ const Modal = props => {
                     black: messages.notNumber
                 }
             })
-        } else if (selectPledge.pledge === "black" && (moneyBacked.black % 25 !== 0 || moneyBacked.black <= 0)) {
+        } else if (selectPledge.pledge === "black" && (moneyBacked.black % 75 !== 0 || moneyBacked.black <= 0)) {
             setErrorMessage(prev => {
                 return {
                     ...prev,
@@ -265,7 +265,7 @@ const Modal = props => {
                     mahogany: messages.notNumber
                 }
             })
-        } else if (selectPledge.pledge === "mahogany" && (moneyBacked.mahogany % 25 !== 0 || moneyBacked.mahogany <= 0)) {
+        } else if (selectPledge.pledge === "mahogany" && (moneyBacked.mahogany % 200 !== 0 || moneyBacked.mahogany <= 0)) {
             setErrorMessage(prev => {
                 return {
                     ...prev,
