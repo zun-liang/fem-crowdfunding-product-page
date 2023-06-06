@@ -8,7 +8,7 @@ export const ViewportContainer = styled.div`
     left: 0;
     z-index: 2;
     oveflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -17,6 +17,7 @@ export const ViewportContainer = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-y: hidden;
     }
 `
 export const Container = styled.div`
