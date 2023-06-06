@@ -89,7 +89,7 @@ Error generating stack: `+l.message+`
     left: 0;
     z-index: 2;
     oveflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     &::-webkit-scrollbar {
         display: none;
     }
@@ -191,11 +191,10 @@ Error generating stack: `+l.message+`
     justify-content: space-between;
 `,c0=O.ul`
     display: flex;
-    position: absolute;
-    top: 1.6rem;
-    right: 3rem;
+    position: relative;
+    right: 3.5rem;
     @media(min-width: 745px) {
-        right: 5rem;
+        right: 12rem;
     }
 `,d0=({screenWidth:e})=>{const[t,n]=re.useState(!0),r=()=>n(o=>!o);return d.jsxs(o0,{children:[d.jsx(l0,{children:"crowdfund"}),d.jsx("nav",{children:e<600?d.jsxs(d.Fragment,{children:[d.jsx(i0,{src:om,alt:"icon menu",onClick:r,menuToggler:t}),d.jsx(u0,{menuToggler:t,children:d.jsxs(ks,{children:[d.jsx(s0,{src:lm,alt:"icon close menu",onClick:r}),d.jsxs(a0,{children:[d.jsx(pn,{list:"about",toggleMenu:r}),d.jsx(Va,{}),d.jsx(pn,{list:"discover",toggleMenu:r}),d.jsx(Va,{}),d.jsx(pn,{list:"get-started",toggleMenu:r})]})]})})]}):d.jsxs(c0,{children:[d.jsx(pn,{list:"about"}),d.jsx(pn,{list:"discover"}),d.jsx(pn,{list:"get-started"})]})})]})},Wa="/crowdfunding-product-page/assets/icon-bookmark-c3355438.svg",Qa="/crowdfunding-product-page/assets/icon-bookmarked-d0611ee6.svg",_f=O.div`
     width: 10rem;
@@ -233,10 +232,11 @@ Error generating stack: `+l.message+`
     }
 `,v0=O.img`
     width: 3.1rem;   
-    position: absolute;
-    top: 11.5rem;
+    position: relative;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: -4rem;
 `,y0=O.h2`
     font-size: 1.1rem;
     text-align: center;
@@ -353,7 +353,6 @@ Error generating stack: `+l.message+`
         display: none;
     }
     @media(min-width: 600px) {
-        magrin: auto;
         padding: 2rem;
         height: 700px;
         flex-wrap: nowrap;
