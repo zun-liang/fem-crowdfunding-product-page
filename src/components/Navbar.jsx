@@ -60,11 +60,10 @@ const MobileList = styled.ul`
 `
 const DesktopMenu = styled.ul`
     display: flex;
-    position: absolute;
-    top: 1.6rem;
-    right: 3rem;
+    position: relative;
+    right: 3.5rem;
     @media(min-width: 745px) {
-        right: 5rem;
+        right: 12rem;
     }
 `
 const Navbar = ({screenWidth}) => {

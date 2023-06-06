@@ -14,7 +14,6 @@ const ModalContainer = styled(Container)`
         display: none;
     }
     @media(min-width: 600px) {
-        magrin: auto;
         padding: 2rem;
         height: 700px;
         flex-wrap: nowrap;

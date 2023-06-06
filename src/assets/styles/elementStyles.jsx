@@ -8,7 +8,7 @@ export const ViewportContainer = styled.div`
     left: 0;
     z-index: 2;
     oveflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
     &::-webkit-scrollbar {
         display: none;
     }
