@@ -14,10 +14,11 @@ const IntroContainer = styled(Container)`
 `
 const BrandIcon = styled.img`
     width: 3.1rem;   
-    position: absolute;
-    top: 11.5rem;
+    position: relative;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: -4rem;
 `
 const SubTitle = styled.h2`
     font-size: 1.1rem;
