@@ -208,8 +208,9 @@ const Modal = props => {
     }
 
     const messages = {
-        notNumber: "Error: please enter a valid number!",
-        notMultiple: "Error: please enter a positive multiple of pledge!"
+        notNumber: "Please enter a valid number!",
+        notMultiple: "Please enter a positive multiple of pledge!",
+        exceedMaximum: "Please enter a number that will not exceed the maximum!"
     }
     const [errorMessage, setErrorMessage] =  useState({
         noreward: "",
@@ -234,6 +235,13 @@ const Modal = props => {
                     bamboo: messages.notNumber
                 }
             })
+        } else if (selectPledge.pledge === "bamboo" && moneyBacked.bamboo / 25 > numberLeft.bamboo) {
+            setErrorMessage(prev => {
+                return {
+                    ...prev,
+                    bamboo: messages.exceedMaximum
+                }
+            })
         } else if (selectPledge.pledge === "bamboo" && (moneyBacked.bamboo % 25 !== 0 || moneyBacked.bamboo <= 0)) {
             setErrorMessage(prev => {
                 return {
@@ -247,6 +255,13 @@ const Modal = props => {
                 return {
                     ...prev,
                     black: messages.notNumber
+                }
+            })
+        } else if (selectPledge.pledge === "black" && moneyBacked.black / 75 > numberLeft.black) {
+            setErrorMessage(prev => {
+                return {
+                    ...prev,
+                    black: messages.exceedMaximum
                 }
             })
         } else if (selectPledge.pledge === "black" && (moneyBacked.black % 75 !== 0 || moneyBacked.black <= 0)) {
@@ -264,6 +279,13 @@ const Modal = props => {
                     mahogany: messages.notNumber
                 }
             })
+        } else if (selectPledge.pledge === "mahogany" && moneyBacked.mahogany / 200 > numberLeft.mahogany) {
+            setErrorMessage(prev => {
+                return {
+                    ...prev,
+                    mahogany: messages.exceedMaximum
+                }
+            })
         } else if (selectPledge.pledge === "mahogany" && (moneyBacked.mahogany % 200 !== 0 || moneyBacked.mahogany <= 0)) {
             setErrorMessage(prev => {
                 return {
@@ -276,9 +298,9 @@ const Modal = props => {
 
     const handleContinueButton = () => {
         if((selectPledge.pledge === "noreward" && moneyBacked.noreward > 0) 
-            || (selectPledge.pledge === "bamboo" && moneyBacked.bamboo > 0 && moneyBacked.bamboo % 25 === 0)
-            || (selectPledge.pledge === "black" && moneyBacked.black > 0 && moneyBacked.black % 75 === 0)
-            || (selectPledge.pldge === "mahogany" && moneyBacked.mahogany > 0 && moneyBacked.mahogany % 200 === 0)
+            || (selectPledge.pledge === "bamboo" && moneyBacked.bamboo > 0 && moneyBacked.bamboo % 25 === 0 && moneyBacked.bamboo / 25 <= numberLeft.bamboo)
+            || (selectPledge.pledge === "black" && moneyBacked.black > 0 && moneyBacked.black % 75 === 0 && moneyBacked.black / 75 <= numberLeft.black)
+            || (selectPledge.pldge === "mahogany" && moneyBacked.mahogany > 0 && moneyBacked.mahogany % 200 === 0 && moneyBacked.mahogany / 200 <= numberLeft.mahogany)
             ) {
             handleModalDisplay()
             handleCompleteDisplay()
