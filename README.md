@@ -1,6 +1,6 @@
 # Frontend Mentor - Crowdfunding product page solution
 
-This is a solution to the [Crowdfunding product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Crowdfunding product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
 
 ## Overview
 
@@ -34,15 +33,15 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/screenshots/Screenshot-mobile-full-page.png"
+                src="./public/screenshots/Screenshot-mobile-full-page.png"
                 alt="mobile preview"
                 height="210px" />
             <img 
-                src="./src/screenshots/Screenshot-mobile-modal.png"
+                src="./public/screenshots/Screenshot-mobile-modal.png"
                 alt="mobile modal preview"
                 height="210px" />
             <img 
-                src="./src/screenshots/Screenshot-mobile-complete.png"
+                src="./public/screenshots/Screenshot-mobile-complete.png"
                 alt="mobile complete preview"
                 height="210px" />
         </td>
@@ -50,7 +49,7 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/screenshots/Screenshot-desktop-full-page.png"
+                src="./public/screenshots/Screenshot-desktop-full-page.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
@@ -58,7 +57,7 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/screenshots/Screenshot-desktop-modal.png"
+                src="./public/screenshots/Screenshot-desktop-modal.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
@@ -66,13 +65,12 @@ Users should be able to:
     <tr>
         <td>
             <img 
-                src="./src/screenshots/Screenshot-desktop-complete.png"
+                src="./public/screenshots/Screenshot-desktop-complete.png"
                 alt="desktop preview"
                 width="290px" />
         </td>
     </tr>
 </table>
-
 
 ### Links
 
@@ -111,7 +109,6 @@ Users should be able to:
 - unit testing
 - styled-components
 - how to work with svg in styled-components
-
 
 ## Author
 
