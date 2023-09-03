@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
     * {
@@ -28,12 +28,13 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Commissioner', sans-serif;
         background-color: hsl(0, 0%, 97%);
         overflow-x: hidden;
-        overflow-y: ${({modalDisplay, completeDisplay}) => modalDisplay || completeDisplay ? "hidden" : "auto"};
+        overflow-y: ${({ modalDisplay, completeDisplay }) =>
+          modalDisplay || completeDisplay ? "hidden" : "auto"};
     }
     
     body::-webkit-scrollbar {
         display: none;
     }
-`
+`;
 
-export default GlobalStyles
+export default GlobalStyles;
