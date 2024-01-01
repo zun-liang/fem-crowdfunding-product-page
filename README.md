@@ -75,7 +75,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/crowdfunding-product-page-created-using-reactjs-and-styledcomponents-DFwezJy1GE)
-- Live Site URL: [here](https://zun-liang.github.io/crowdfunding-product-page/)
+- Live Site URL: [here](https://zun-liang.github.io/fem-crowdfunding-product-page/)
 
 ## My process
 
@@ -94,7 +94,7 @@ Users should be able to:
 - styled-components
 - props.children
 - toLocaleString()
-- ::-webkit-scrollbar (not recommened anymore actually)
+- ::-webkit-scrollbar (not recommended anymore actually)
 - nth-of-type()
 - background-clip
 - ::before/after
